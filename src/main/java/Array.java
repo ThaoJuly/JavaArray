@@ -16,7 +16,7 @@ public class Array {
         printArray(arr);
         System.out.format("Sum = %d\n", sumElements(arr));
 
-        sortArray(arr);
+        sortArrayAsc(arr);
         printArray(arr);
 
 //        int[] arr = {1, 2, 3, 4};
@@ -56,7 +56,6 @@ public class Array {
         return ret;
     }
 
-    //
     public static void sortArrayAsc(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
